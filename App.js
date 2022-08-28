@@ -1,11 +1,11 @@
 import { View } from 'react-native';
-import List from './navigation';
+import Gallery from './navigation';
 import { globalStyle } from './styles/style';
 
 export default function App() {
   return (
     <View style={globalStyle.main}>
-      <List/>
+      <Gallery/>
     </View>
   );
 }

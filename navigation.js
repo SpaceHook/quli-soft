@@ -1,7 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { StyleSheet } from "react-native";
-import { List } from "./components/List/List";
+import { Gallery } from "./components/Gallery/Gallery";
 import { Photo } from "./components/Photo/Photo";
 
 const Stack = createStackNavigator();
@@ -11,10 +11,10 @@ export default function Navigate() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="Galery"
-          component={List}
+          name="Gallery"
+          component={Gallery}
           options={{
-            title: 'Galery',
+            title: 'Gallery',
             headerStyle: styles.headerStyle,
             headerTitleStyle: styles.headerTitleStyle,
           }}

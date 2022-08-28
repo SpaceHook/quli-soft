@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ActivityIndicator, Image, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Image, StyleSheet, View } from 'react-native';
 
 export const Photo = ({route}) => {
   const [loading, setLoading] = useState(true);

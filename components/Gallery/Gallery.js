@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 
-export const List = ({navigation}) => {
+export const Gallery = ({navigation}) => {
   const [photos, setPhotos] = useState([]);
   const loadPhoto = (photo) => {
     navigation.navigate('Photo', photo);
